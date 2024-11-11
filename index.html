@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Costales Portfolio</title>
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <a href="#home">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <a href="#about-me">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"
+            ><a href="#skills">Skills</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <a href="#projects">Project</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <a href="#contact-info">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about-me">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contact-info">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <div id="home" class="main-container">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="pic1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Mariel</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> with a passion for continuous learning through both academic study and hands-on projects. With a focus on technical growth, I am especially interested in how technology and creativity can address real-world challenges. 
+                    I’m eager to apply my skills to impactful projects and expand my expertise in computer science.</p>
+
+               
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>DOWNLOAD</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="about-me" class="main-section bg-white" data-aos="fade-up" data-aos-duration="1500">
+            <div class="width-50 mt-20" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="heading-text">About Me</h2>
+                <table cellspacing="8" cellpadding="8">
+                    <tbody>
+                        <tr>
+                            <th>Name:</th>
+                            <td>Mariel Pelayo Costales</td>
+                        </tr>
+                        <tr>
+                            <th>Birthday:</th>
+                            <td>February 3, 2004</td>
+                        </tr>
+                        <tr>
+                            <th>Age:</th>
+                            <td>20 years old</td> 
+                        </tr>
+                        <tr>
+                            <th>City:</th>
+                            <td>Las Pinas City</td>
+                        </tr>
+                        <tr>
+                            <th>Study:</th>
+                            <td>Cavite State University-Bacoor Campus</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+
+        <div id="skills" class="main-section bg-black" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2 class="heading-text">Skills</h2>
+                <div class="skills-container">
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>HTML & CSS - Intermediate</li>
+                            <li>JavaScript - Intermediate</li>
+                            <li>Python - Advanced</li>
+                            <li>Java - Basic</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Communication - Strong</li>
+                            <li>Problem-Solving - Strong</li>
+                            <li>Time Management - Excellent</li>
+                            <li>Adaptability - Excellent</li>
+                            <li>Team Collaboration - Strong</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="projects" class="main-section bg-dark "data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2 class="heading-text">My Projects</h2>
+                <div class="projects-container" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="project-item">
+                        <img src="pic2.jpg" alt="Project 1">
+                        <h3>Evaluation of grade</h3>
+                        <p>This project is a web application designed to help students evaluate their academic performance. It allows users to input their grades and provides them with an overall grade summary, including an analysis of their performance over time.</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="pic3.jpg" alt="Project 2">
+                        <h3>Fiesta Gas Inventory Management System</h3>
+                        <p>This project is a complete inventory management system for a gas company. It helps track gas cylinder stocks, manage orders, and generate reports, aiming to streamline operations and improve inventory management efficiency.</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        
+        
+<div id= "contact-info" class="contact-info">
+    <div class="width-50 mt-20">
+        <h2 class="heading-text">Contact Me</h2>
+        <table cellspacing="8" cellpadding="8">
+               
+    <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100085296665649" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/costales_mariel?igsh=MWY1YTMyZTFicjdq" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:marielcostales934@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+639708078117" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><i class="fa-solid fa-phone"></i></a>
+    </table>
+    </div>
+    
+</div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="js.js"></script>
+
+    
+</body>
+</html>
